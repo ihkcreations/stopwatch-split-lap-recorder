@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">  
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stopwatch</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="container">
-    <header class="header">  
+    <header class="header">
       <h1>Stopwatch</h1>
     </header>
     <section class="display-section">
       <div id="stopwatch-display" class="display">00:00:00.00</div>
     </section>
     <section class="controls">
-      <button id="start-btn" class="btn">Start</button>  
+      <button id="start-btn" class="btn">Start</button>
       <button id="lap-btn" class="btn" disabled>Lap</button>
       <button id="reset-btn" class="btn" disabled>Reset</button>
     </section>
     <section class="laps-section">
       <div class="laps-header">
         <span>Lap</span>
-        <span>Split Time</span>  
+        <span>Split Time</span>
         <span>Total Time</span>
       </div>
       <ol id="laps-list" class="laps-list"></ol>
     </section>
   </main>
   <script src="script.js"></script>
-</body>  
+</body>
 </html>
-
-
